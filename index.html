@@ -148,12 +148,77 @@
       --neon: #ff85a2;
     }
 
-    footer {
-      padding: 30px;
-      font-size: 0.9em;
-      background: #ffd1dc;
-      color: #5a4a4a;
-    }
+
+footer {
+  padding: 30px;
+  font-size: 0.9em;
+  background: #ffd1dc;
+  color: #5a4a4a;
+}
+
+/* 📱 MOBILE RESPONSIVE FIX */
+@media (max-width: 768px) {
+
+  header {
+    height: 70vh;
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+    padding: 15px 20px;
+    border-radius: 25px;
+  }
+
+  section {
+    padding: 40px 15px;
+  }
+
+  .card {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .gallery img {
+    height: 180px;
+    border-radius: 15px;
+  }
+
+  iframe {
+    height: 250px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 12px;
+  }
+
+  input, select {
+    font-size: 16px;
+  }
+
+  .toggle {
+    top: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    font-size: 0.8em;
+  }
+}
+
+
   </style>
 </head>
 <body>
